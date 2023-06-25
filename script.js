@@ -10,7 +10,7 @@ let team = players;
 console.log(team);
 let team1 = players.slice();
 console.log(team1);
-let cap1 = Object.assign({}, person);
+let cap1 = person;
 console.log(cap1);
 
 window.players = players;
